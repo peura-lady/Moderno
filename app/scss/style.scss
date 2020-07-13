@@ -265,7 +265,9 @@
             &.slick-active{
                 button{
                     background-color: $green;
-                    outline: none;
+                    &:focus{
+                        outline: none;
+                    }
                 }
             }
             button{
