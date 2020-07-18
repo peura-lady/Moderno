@@ -1865,6 +1865,19 @@ button.icon-unsorted{
         padding: 0 10px;
     }
 }
+.tab-box{
+    button{
+        margin-left: 258px;
+        margin-top: 25px;
+        border: none;
+        padding: 16px 30px 18px;
+        background-color: $green;
+        color: #fff;
+        @include f500;
+        text-align: center;
+        outline: none;
+    }
+}
 
     // end settings
 
